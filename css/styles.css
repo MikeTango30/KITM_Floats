@@ -1,0 +1,116 @@
+/*Base*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+/*body {
+	margin: 0;
+	padding: 0;
+}*/
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+main {
+	min-height: 300px;
+}
+
+article {
+	margin: 5px;
+}
+
+/*Navbar*/
+
+
+
+nav li {
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid #000; 
+}
+
+/*Headings*/
+
+h1, h2, h3, h4 {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 5px;
+}
+
+h1	{
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.3rem;
+}
+
+/*Colors*/
+
+header {
+	background-color: #e3dfa3;
+}
+
+nav {
+	background-color: #e3df00;
+}
+
+main {
+	background-color: #f0c7b6;
+}
+
+article{
+	background-color: rgba(193, 196, 137, .6);
+}
+
+aside {
+	background-color: #ebd7c5;
+}
+
+footer {
+	background-color: #e3dfa3;
+}
+
+/*Links*/
+
+a {
+	text-decoration: none;
+}
+
+/*Paragraph*/
+/*Lists*/
+/*Layout*/
+
+main, aside {
+	float: left;
+}
+
+main {
+	width: 70%;
+}
+
+/*Aside*/
+
+aside {
+	padding: 5px;
+	width: 30%;
+}
+
+/*Footer*/
+
+footer {
+	text-align: center;
+	clear: both;
+}
+
+
+
